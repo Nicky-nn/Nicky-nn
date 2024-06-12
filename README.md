@@ -1,5 +1,5 @@
 <h1 align="center">Hi <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="35" />, I'm Nick</h1>
-<h3 align="center">I'm Nick Russell, a 21-year-old Bolivian Independent FullStack Developer, a weird guy who likes to do weird things with technologies and related to design, developing experiences and web applications. When I'm not working or playing, I plan how to escape from the University.</h3>
+<h3 align="center">I'm Nick Russell, a <AGE>-year-old Bolivian Independent FullStack Developer, a weird guy who likes to do weird things with technologies and related to design, developing experiences and web applications. When I'm not working or playing, I plan how to escape from the University.</h3>
 
 - 👨‍💻 All of my projects are available at [https://nick-russell.vercel.app/](https://nick-russell.vercel.app/) <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
 
@@ -31,7 +31,7 @@
 <!--END_SECTION:waka-->
 
 ⏳ **Year Progress** { ■■■■■■■■■■■■■■■■■■▢▢▢▢▢▢▢▢▢▢ } 66.05 % as on ⏰ 29-Aug-2022
-
+- ⏳ **Year Progress** |■■■■■■■■■■■■■■■■■■▢▢▢▢▢▢▢▢▢▢| 66.05 % as on Thu Jun 15 2023 00:00:00 GMT+0000 (Coordinated Universal Time)
 ---
 
 <h3 align="left">Connect with me:</h3>
