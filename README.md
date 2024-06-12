@@ -1,18 +1,39 @@
 <h1 align="center">Hi <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="35" />, I'm Nick</h1>
-<h3 align="center">I'm Nick Russell, a 21-year-old Bolivian Independent FullStack Developer, a weird guy who likes to do weird things with technologies and related to design, developing experiences and web applications. When I'm not working or playing, I plan how to escape from the University.</h3>
-
+<h3 align="center">I'm Nick Russell, a <span id="age"></span>-year-old Bolivian Independent FullStack Developer, a weird guy who likes to do weird things with technologies and related to design, developing experiences and web applications. When I'm not working or playing, I plan how to escape from the University.</h3>
 - 👨‍💻 All of my projects are available at [https://nick-russell.vercel.app/](https://nick-russell.vercel.app/) <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
-
 - 💬 Ask me about **react, vue, angular**
-
 - 📫 How to reach me **nick077n@gmail.com**
-
 - 👯 We can connect to play some games ♟
-
 - ⚡ Fun fact **Je connais un peu le français**
+- 🧑‍💻 Tech I work on : 
 
-- 🧑‍💻 Tech I work on :
+<script>
+  const birthDate = new Date('2002-02-26');
+  const today = new Date();
+  const age = today.getFullYear() - birthDate.getFullYear();
+  const monthDiff = today.getMonth() - birthDate.getMonth();
 
+  if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+    document.getElementById('age').textContent = age - 1;
+  } else {
+    document.getElementById('age').textContent = age;
+  }
+
+  const currentYear = today.getFullYear();
+  const startOfYear = new Date(currentYear, 0, 1);
+  const dayOfYear = Math.floor((today - startOfYear) / (24 * 60 * 60 * 1000));
+  const daysInYear = isLeapYear(currentYear) ? 366 : 365;
+  const progressPercentage = (dayOfYear / daysInYear * 100).toFixed(2);
+
+  const progressBar = '■'.repeat(Math.floor(progressPercentage / 4)) + '▢'.repeat(25 - Math.floor(progressPercentage / 4));
+
+  document.getElementById('year-progress').innerHTML = `{ ${progressBar} } ${progressPercentage} %`;
+  document.getElementById('current-date').textContent = today.toDateString();
+
+  function isLeapYear(year) {
+    return (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
+  }
+</script>
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="center"> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://golang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="40" height="40"/> </a> <a href="https://graphql.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="graphql" width="40" height="40"/> </a> <a href="https://ionicframework.com" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Ionic_Logo.svg" alt="ionic" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://kotlinlang.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <a href="https://developer.apple.com/swift/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg" alt="swift" width="40" height="40"/> </a> </p>
@@ -30,7 +51,7 @@
 
 <!--END_SECTION:waka-->
 
-⏳ **Year Progress** { ■■■■■■■■■■■■■■■■■■▢▢▢▢▢▢▢▢▢▢ } 66.05 % as on ⏰ 29-Aug-2022
+⏳ **Year Progress** <span id="year-progress"></span> as on <span id="current-date"></span>
 
 ---
 
