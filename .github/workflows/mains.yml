@@ -1,0 +1,38 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Ejecutar todos los días a las 00:00 UTC
+
+jobs:
+
+  update-readme:
+    name: Update README with year progress
+    runs-on: ubuntu-latest
+    
+    steps:
+    
+    - name: Calculate year progress
+      id: year-progress
+      run: |
+        current_year=$(date +'%Y')
+        current_day=$(date +'%j')
+        days_in_year=$(perl -le 'print(($ENV{CURRENT_YEAR}%4?365:($ENV{CURRENT_YEAR}%100?366:($ENV{CURRENT_YEAR}%400?365:366))))' -- -CURRENT_YEAR="$current_year")
+        progress_percentage=$(echo "scale=2; ($current_day * 100) / $days_in_year" | bc)
+        progress_bar=$(printf '%0.0f' "$progress_percentage/4")
+        progress_remainder=$((25 - $progress_bar))
+        echo "::set-output name=progress::$progress_percentage%"
+        echo "::set-output name=bar::|$progress_bar|$progress_remainder|"
+        
+    - name: Update README
+      uses: christian-eriksen/update-readme@master
+      env:
+        README_PATH: README.md 
+        AGE_BIRTHDATE: '2002-02-26'
+        YEAR_PROGRESS: ${{ steps.year-progress.outputs.progress }}
+        YEAR_PROGRESS_BAR: ${{ steps.year-progress.outputs.bar }}
+      with:
+        regex: "(\\- ⏳ \\*\\*Year Progress\\*\\* ).*?(\\s+as on .*)" 
+        replacement: '$1${{ steps.year-progress.outputs.bar }} ${{ steps.year-progress.outputs.progress }} $2'
+        regex-match-group: 2
+        age-replace: "a <AGE>-year-old"
