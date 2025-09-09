@@ -1,5 +1,6 @@
+
 <h1 align="center">Hi <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="35" />, I'm Nick</h1>
-<h3 align="center">I'm Nick Russell, a <AGE>-year-old Bolivian Independent FullStack Developer, a weird guy who likes to do weird things with technologies and related to design, developing experiences and web applications. When I'm not working or playing, I plan how to escape from the University.</h3>
+<h3 align="center">I'm Nick Russell, a 23-year-old Bolivian Independent FullStack Developer, a weird guy who likes to do weird things with technologies and related to design, developing experiences and web applications. When I'm not working or playing, I plan how to escape from the University.</h3>
 
 - 👨‍💻 All of my projects are available at [https://nick-russell.vercel.app/](https://nick-russell.vercel.app/) <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
 
@@ -20,9 +21,7 @@
 
 ---
 ### <img src='https://media1.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif?cid=ecf05e47x2g034i9pzwtzzsd3xgg2w9nr94t4tflbbgo3008&rid=giphy.gif' width='25' /> My Github Stats:
-
-![Nick's GitHub stats](https://github-readme-stats.vercel.app/api?username=nicky-nn&show_icons=true&title_color=ffc857&icon_color=8ac926&text_color=daf7dc&bg_color=151515&hide=issues&count)
-
+![Nick's github stats](https://github-readme-stats.vercel.app/api?username=nicky-nn&show_icons=true&title_color=ffc857&icon_color=8ac926&text_color=daf7dc&bg_color=151515&hide=issues&count_private=true&include_all_commits=true)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nicky-nn&layout=compact&text_color=daf7dc&bg_color=151515&hide=css,html,php)](https://github.com/anuraghazra/github-readme-stats)
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=nicky-nn&theme=dark)](https://git.io/streak-stats)
 
@@ -30,13 +29,16 @@
 
 <!--END_SECTION:waka-->
 
-⏳ **Year Progress** { ■■■■■■■■■■■■■■■■■■▢▢▢▢▢▢▢▢▢▢ } 66.05 % as on ⏰ 29-Aug-2022
-- ⏳ **Year Progress** |■■■■■■■■■■■■■■■■■■▢▢▢▢▢▢▢▢▢▢| 66.05 % as on Thu Jun 15 2023 00:00:00 GMT+0000 (Coordinated Universal Time)
+
+⏳ **Year Progress**  ■■■■■■■■■■■■■■■■■■■■▢▢▢▢▢▢▢▢▢▢  69.01 % as on ⏰ 8-Sep-2025
+
 ---
 
 <h3 align="left">Connect with me:</h3>
-<p align="center">
+<p align="left">
 <a href="https://dev.to/nickynn" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="nickynn" height="30" width="40" /></a>
 <a href="https://twitter.com/nick_russell_in" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="nick_russell_in" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/nickynn/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="nickynn/" height="30" width="40" /></a>
 </p>
+
+

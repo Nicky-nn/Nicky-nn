@@ -4,6 +4,14 @@ const endTimeOfThisYear = new Date(`${thisYear}-12-31T23:59:59+00:00`).getTime()
 const progressOfThisYear = (Date.now() - startTimeOfThisYear) / (endTimeOfThisYear - startTimeOfThisYear)
 const progressBarOfThisYear = generateProgressBar()
 
+const birthDate = new Date('2002-02-26');
+const age = new Date().getFullYear() - birthDate.getFullYear();
+const month = new Date().getMonth() - birthDate.getMonth();
+if (month < 0 || (month === 0 && new Date().getDate() < birthDate.getDate())) {
+    age--;
+}
+
+
 let monthNames = ["Jan","Feb","Mar","Apr", "May","Jun","Jul","Aug", "Sep", "Oct","Nov","Dec"];
 
 function generateProgressBar() {
@@ -18,7 +26,7 @@ function generateProgressBar() {
 
 const readme = `
 <h1 align="center">Hi <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="35" />, I'm Nick</h1>
-<h3 align="center">I'm Nick Russell, a 20-year-old Bolivian Independent FullStack Developer, a weird guy who likes to do weird things with technologies and related to design, developing experiences and web applications. When I'm not working or playing, I plan how to escape from the University.</h3>
+<h3 align="center">I'm Nick Russell, a ${age}-year-old Bolivian Independent FullStack Developer, a weird guy who likes to do weird things with technologies and related to design, developing experiences and web applications. When I'm not working or playing, I plan how to escape from the University.</h3>
 
 - 👨‍💻 All of my projects are available at [https://nick-russell.vercel.app/](https://nick-russell.vercel.app/) <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
 
