@@ -24,7 +24,7 @@
 ![Nick's github stats](https://github-readme-stats.vercel.app/api?username=nicky-nn&show_icons=true&title_color=ffc857&icon_color=8ac926&text_color=daf7dc&bg_color=151515&hide=issues&count_private=true&include_all_commits=true)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nicky-nn&layout=compact&text_color=daf7dc&bg_color=151515&hide=css,html,php)](https://github.com/anuraghazra/github-readme-stats)
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Nicky-nn&theme=dark)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=nicky-nn&theme=dark)](https://git.io/streak-stats)
 
 <!--START_SECTION:waka-->
 
