@@ -1,3 +1,4 @@
+
 <p align="center">
   <img src="https://img.shields.io/badge/Birth_Year-2002-pink" alt="Birth Year" style="height: 25px; vertical-align: middle;"/>
   <img src="https://img.shields.io/badge/Learning-Next.js%20%26%20TypeScript-yellow" alt="Learning" style="height: 25px; vertical-align: middle;"/>
@@ -66,7 +67,7 @@
 
 <!--END_SECTION:waka-->
 
-⏳ **Year Progress** ▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢ 3.24 % as on ⏰ 12-Jan-2026
+⏳ **Year Progress**  ■■▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢  9.06 % as on ⏰ 3-Feb-2026
 
 ---
 ## 🏆 Achievements
@@ -81,3 +82,4 @@
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/nick_russell07/)
 [![Gmail](https://img.shields.io/badge/Gmail-%23EA4335?style=for-the-badge&logo=Gmail&logoColor=white)](mailto:nick077n@gmail.com)
 [![dev.to](https://img.shields.io/badge/dev.to-%23000000?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/nickynn)
+
