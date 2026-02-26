@@ -13,7 +13,7 @@
 
 ## 👦 About Me
 
-<h3 align="center">I'm Nick Russell, a 23-year-old Bolivian Independent FullStack Developer, a weird guy who likes to do weird things with technologies and related to design, developing experiences and web applications. When I'm not working or playing, I plan how to escape from the University.</h3>
+<h3 align="center">I'm Nick Russell, a 24-year-old Bolivian Independent FullStack Developer, a weird guy who likes to do weird things with technologies and related to design, developing experiences and web applications. When I'm not working or playing, I plan how to escape from the University.</h3>
 
 -   👨‍💻 All of my projects are available at [https://nick-russell.vercel.app/](https://nick-russell.vercel.app/) <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
 
@@ -67,7 +67,7 @@
 
 <!--END_SECTION:waka-->
 
-⏳ **Year Progress**  ■■■■▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢  15.08 % as on ⏰ 25-Feb-2026
+⏳ **Year Progress**  ■■■■▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢  15.36 % as on ⏰ 26-Feb-2026
 
 ---
 ## 🏆 Achievements
